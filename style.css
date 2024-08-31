@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --NetflixRed: #e50a13;
+    --Black: black;
+    --white: white;
+}
+body{
+    font-family: sans-serif
+}
+.banner{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.963), rgba(0, 0, 0, 0.559)), url(/images/header-image.png);
+    background-size: cover;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.322);
+}
+/* header{
+    background: rgb(7, 205, 205);
+} */
+.banner .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4em;
+    /* background-color: aliceblue; */
+    padding: 1em 2em;
+}
+img{
+    width: 100%;
+}
+.left-section{
+    width: 10%;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+.nav-link{
+    padding: 0.25em 1em;
+    border-radius: 6px;
+    color: var(--white);
+}
+.border{
+    border: 1px solid var(--white);
+    color: var(--white);
+    padding: 0.2em 0.6em;
+}
+.bg{
+    background-color: var(--NetflixRed);
+    color: white;
+    border: 1px solid var(--NetflixRed);
+}
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+nav, .nav-links{
+    list-style-type: none;
+}
+select{
+    cursor: pointer;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.386);
+    border-color: #e50a1100;
+    color: var(--white);
+}
+.banner-center{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: var(--white);
+    p{
+        font-size: 0.6em;
+    }
+}
+.banner-content .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+}
+.p-container{
+    margin-top: 5%;
+    margin-bottom: 1%;
+    p{
+        font-size: 0.4em;
+    }
+}
+.content{
+    background-color: var(--NetflixRed);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1em 2em; */
+
+    input{
+        padding: 1em 12em 1em 1em;
+    }
+}
+.get-started{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    width: 100%;
+    padding: 0 1em;
+    font-size: 20px;
+}
+.body-contents{
+    box-shadow: var(--white);
+}
+.b-content{
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5em;
+    background-color: var(--Black);
+    margin: auto;
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.322);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    gap: 1em;
+    padding: 1em;
+    margin-left: 10%;
+    color: var(--white);
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+.text2{
+    margin-right: 10%;
+    margin-left: 0;
+}
+.img-con{
+    width: 50%;
+    padding: 0 7em 0 0;
+}
+.img-con2, .img-con4{
+    width: 50%;
+    padding: 0 0 0 7em;
+}
+.questions{
+    h2{
+    text-align: center;
+    margin-bottom: 1.5em;
+    padding-top: 1.5em;
+    color: var(--white);
+    }
+    padding-bottom: 5em;
+    background-color: var(--Black);
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 2em;
+    background-color: rgba(255, 255, 255, 0.18);
+    margin: 0 auto;
+    color: var(--white);
+}
+.top{
+    margin-left: 30%;
+    padding: 0.2em 17.5em 0.2em 1em;
+}
+.bottom{
+    margin-top: 0.5em;
+    padding: 0.2em 11em 0.2em 1em;
+}
+.question p{
+    padding: 1em 5em 1em 1em; 
+}
+
+.p-container2{
+    /* background-color: #e50a13; */
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    p{
+        font-size: 0.8em;
+        color: var(--white);
+    }
+}
+.content2{
+    /* background-color: var(--NetflixRed); */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.email-content2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--NetflixRed);
+    margin: 0 auto;
+    /* padding: 1em 2em; */
+
+    input{
+        padding: 1em 12em 1em 1em;
+    }
+}
